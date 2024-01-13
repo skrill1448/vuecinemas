@@ -7,8 +7,9 @@
 }
 
 body {
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: var(--cr);
     font-weight: 400;
+    background: var(--bg);
 }
 
 .container {
@@ -17,4 +18,19 @@ body {
     width: 100%;
     height: 100%;
     padding: 0 15px;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --grey: #C8C8C8;
+    --bg: #040D1F;
+    --orange: #F18128;
+    --lightOrange: #ED8E00;
+    --CR: 'CR', sans-serif;
+    --CB: 'CB', sans-serif;
+    --RR: 'RR', sans-serif;
+    --MR: 'MR', sans-serif;
+    --MB: 'MB', sans-serif;
+
 }
