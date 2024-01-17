@@ -1,3 +1,10 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+}
+
 .header__top {
     background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
     padding: 20px 15px;
@@ -5,6 +12,7 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+    flex: 0 0 auto;
 }
 
 .header__top-icon {
@@ -25,6 +33,10 @@
 .header__nav {
     padding: 30px 0;
     background: #010305CC;
+    position: sticky;
+    top: 0;
+    flex: 0 0 auto;
+
 }
 
 .header__wrap {
